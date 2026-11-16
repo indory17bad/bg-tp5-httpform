@@ -128,3 +128,60 @@ textarea {
 	border: 2px solid #e0e0e0;
 	border-radius: 8px;
 }
+
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime-local"] {
+	height: 46px;
+}
+
+textarea {
+	height: 147px;
+	resize: vertical;
+}
+
+select[multiple] {
+	height: 116px;
+	padding: 10px;
+}
+
+/* ===== radio groups ===== */
+fieldset {
+	margin-bottom: 0;
+	padding: 20px 20px 22px;
+	border: 2px solid #e0e0e0;
+	border-radius: 12px;
+}
+
+legend {
+	padding: 0 10px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #e94560;
+	margin-bottom: 6px;
+}
+
+label.option {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 12px;
+	padding: 12px 10px;
+	font-size: 14px;
+	line-height: 22px;
+	background: #ffffff;
+	border-radius: 8px;
+}
+
+label.option:last-child {
+	margin-bottom: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	accent-color: #e94560;
+}
