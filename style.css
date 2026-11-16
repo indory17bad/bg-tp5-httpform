@@ -23,3 +23,13 @@ body {
 	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 	overflow: hidden;
 }
+
+/* ===== header ===== */
+.header {
+	position: relative;
+	padding: 48px 30px 36px;
+	text-align: center;
+	color: #ffffff;
+	background: linear-gradient(135deg, #e94560 0%, #c41e3a 100%);
+	overflow: hidden;
+}
