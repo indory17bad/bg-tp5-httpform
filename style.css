@@ -14,7 +14,7 @@ body {
 	background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
 }
 
-/* ===== principale card ===== */
+/* ===== main card ===== */
 .container {
 	max-width: 900px;
 	margin: 0 auto;
@@ -33,6 +33,7 @@ body {
 	background: linear-gradient(135deg, #e94560 0%, #c41e3a 100%);
 	overflow: hidden;
 }
+
 
 .header::before {
 	content: "🎬";
@@ -57,7 +58,7 @@ body {
 	opacity: 0.9;
 }
 
-/* ===== form content ===== */
+/* ===== form container ===== */
 .form-content {
 	padding: 40px;
 }
@@ -88,7 +89,7 @@ body {
 	color: #1a1a2e;
 }
 
-/* ===== Champs ===== */
+/* ===== form rows ===== */
 .form-row {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -185,4 +186,3 @@ input[type="checkbox"] {
 	height: 20px;
 	accent-color: #e94560;
 }
-
