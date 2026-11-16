@@ -71,3 +71,19 @@ body {
 	border-left: 4px solid #ffc107;
 	border-radius: 8px;
 }
+
+/* ===== Sections ===== */
+.section {
+	margin-bottom: 35px;
+	padding: 25px;
+	background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+	border-left: 4px solid #e94560;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+	margin-bottom: 19px;
+	font-size: 1.3em;
+	color: #1a1a2e;
+}
