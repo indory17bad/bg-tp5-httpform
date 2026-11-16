@@ -87,3 +87,44 @@ body {
 	font-size: 1.3em;
 	color: #1a1a2e;
 }
+
+/* ===== Champs ===== */
+.form-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 4px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #2c3e50;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	font-size: 14px;
+	background: #ffffff;
+	border: 2px solid #e0e0e0;
+	border-radius: 8px;
+}
